@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letters</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="cover-letter-generator.html">Cover Letter Generator</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="cover-letters.html">Cover Letters</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Upload Cover Letter</h2>
+        <input type="file" id="coverLetterFile" accept=".pdf, .docx">
+        <button onclick="uploadCoverLetter()">Upload</button>
+
+        <h2>Your Uploaded Cover Letters</h2>
+        <ul id="coverLetterList"></ul>
+    </div>
+    <script src="js/cover-letters.js"></script>
+</body>
+</html>
